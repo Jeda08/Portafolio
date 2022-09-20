@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduccion">Introduccion</a></li>
+        <li>
+          <a class="nav-link" href="#¿Qué_es_Python?"
+            >¿Qué es Python?</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#¿Quién_creó_Python?"
+            >¿Quién creó Python?</a
+          >
+        </li>
+        <li><a class="nav-link" href="#¿Para_que_se_usa_y_qué_se_puede_programar_con_Python?">¿Para que se usa y qué se puede programar con Python?</a></li>
+        <li><a class="nav-link" href="#¿Cómo_funciona_Python?">¿Cómo funciona Python?</a></li>
+        <li>
+          <a class="nav-link" href="#9_Razones_por_las_que_debes_aprender_Python"
+            >9 Razones por las que debes aprender Python</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Variables_expresiones_y_sentencias">Variables expresiones y sentencias</a></li>
+        <li>
+          <a class="nav-link" href="#Funciones">Funciones
+</a>
+        </li>
+        <li><a class="nav-link" href="#Condicionales_y_recursividad">Condicionales y Recursividad</a></li>
+        <li><a class="nav-link" href="#Funciones_productivas">Funciones productivas
+</a></li>
+        <li>
+          <a class="nav-link" href="#Cadenas"
+            >Cadenas</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Listas">Listas</a></li>
+        <li>
+          <a class="nav-link" href="#Tuplas"
+            >Tuplas</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduccion">
+        <header>Introduccion</header>
+        <article>
+          <p>
+            ¿Has oído hablar de Python? Si acabas de empezar a programar ordenadores y otros dispositivos, lo más probable es que hayas intentado averiguar qué lenguaje de programación es el mejor para aprender primero.
+
+            Hay muchos artículos en Internet sobre qué lenguaje de programación deberías aprender, cuáles son los mejores para tal plataforma, cuáles son los más fáciles de aprender, cuáles son los que más te ayudarán a conseguir un trabajo ganando mucho dinero, etc.
+
+            Si has estado analizando todas estas opiniones, es muy probable que hayas oído hablar de Python.
+
+            Aprender cualquier lenguaje de programación también te enseñará a pensar como un programador. Todos los lenguajes de programación tienen sus fortalezas y debilidades. Si buscas un lenguaje que funcione en una amplia gama de aplicaciones, o si sólo quieres sumergirte en las profundidades de la codificación, Python puede ser adecuado para intentarlo.
+          </p>
+
+          <p>
+            <h1>
+            El lenguaje de programaci´on Python
+            </h1>
+            El lenguaje de programaci´on que aprender´a es Python. Python es un ejemplar
+            de un lenguaje de alto nivel; otros ejemplos de lenguajes de alto nivel son C,
+            C++, Perl y Java.
+          </p>
+          <ul>
+            <li>
+              Como se puede deducir de la nomenclatura “lenguaje de alto nivel”, tambi´en
+              existen lenguajes de bajo nivel, a los que tambi´en se califica como lenguajes de m´aquina o lenguajes ensambladores. A prop´osito, los computadores s´olo
+              ejecutan programas escritos en lenguajes de bajo nivel. Los programas de alto
+              nivel tienen que traducirse antes de ejecutarse. Esta traducci´on lleva tiempo, lo
+              cual es una pequena˜ desventaja de los lenguajes de alto nivel.
+              Aun as´ı las ventajas son enormes. En primer lugar, la programaci´on en lenguajes
+              de alto nivel es mucho m´as f´acil; escribir programas en un lenguaje de alto nivel
+              toma menos tiempo, los programas son m´as cortos y m´as f´aciles de leer, y es m´as
+              probable que estos programas sean correctos. En segundo lugar, los lenguajes
+              de alto nivel son portables, lo que significa que pueden ejecutarse en tipos
+              diferentes de computadores sin modificaci´on alguna o con pocas modificaciones.
+              Los programas escritos en lenguajes de bajo nivel s´olo pueden ser ejecutarse en
+              un tipo de computador y deben reescribirse para ejecutarlos en otro.
+              Debido a estas ventajas, casi todos los programa se escriben en un lenguaje de
+              alto nivel. Los lenguajes de bajo nivel s´olo se usan para unas pocas aplicaciones
+              especiales.
+              Hay dos tipos de programas que traducen lenguajes de alto nivel a lenguajes
+              de bajo nivel: int´erpretes y compiladores. Un int´erprete lee un programa de
+              alto nivel y lo ejecuta, lo que significa que lleva a cabo lo que indica el programa.
+              Traduce el programa poco a poco, leyendo y ejecutando cada comando.
+
+            </li>
+            <li>
+              Un compilador lee el programa y lo traduce todo al mismo tiempo, antes de
+              ejecutar cualquiera de las instrucciones. En este caso, al programa de alto nivel
+              se le llama el c´odigo fuente, y al programa traducido el c´odigo de objeto o el c´odigo ejecutable. Una vez compilado el programa, puede ejecutarlo
+              repetidamente sin volver a traducirlo.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="¿Qué_es_Python?">
+        <header>¿Qué es Python?</header>
+        <article>
+          <p>
+             En términos técnicos, Python es un lenguaje de programación de alto nivel, orientado a objetos, con una semántica dinámica integrada, principalmente para el desarrollo web y de aplicaciones informáticas.
+            </p>
+
+          <ul>
+            <li>
+              Es muy atractivo en el campo del Desarrollo Rápido de Aplicaciones (RAD) porque ofrece tipificación dinámica y opciones de encuadernación dinámicas.
+
+              Python es relativamente simple, por lo que es fácil de aprender, ya que requiere una sintaxis única que se centra en la legibilidad. Los desarrolladores pueden leer y traducir el código Python mucho más fácilmente que otros lenguajes.
+
+    
+            </li>
+            <li>
+              Por tanto, esto reduce el costo de mantenimiento y de desarrollo del programa porque permite que los equipos trabajen en colaboración sin barreras significativas de lenguaje y experimentación.
+
+              Además, soporta el uso de módulos y paquetes, lo que significa que los programas pueden ser diseñados en un estilo modular y el código puede ser reutilizado en varios proyectos. Una vez se ha desarrollado un módulo o paquete, se puede escalar para su uso en otros proyectos, y es fácil de importar o exportar.
+
+              Por otro lado, uno de los beneficios más importantes de Python es que tanto la librería estándar como el intérprete están disponibles gratuitamente, tanto en forma binaria como en forma de fuente.
+
+              Tampoco hay exclusividad, ya que Python y todas las herramientas necesarias están disponibles en todas las plataformas principales. Por lo tanto, es una opción multiplataforma, bastante tentadora para los desarrolladores que no quieren preocuparse por pagar altos costos de desarrollo.
+            </li>
+            <li>
+              En definitiva, es un lenguaje de programación relativamente fácil de aprender, y las herramientas necesarias están disponibles para todos de forma gratuita. Esto hace que sea accesible para casi todo el mundo. Si dispones de tiempo para aprender, conseguirás crear esos proyectos que tienes en mente.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="¿Quién_creó_Python?">
+        <header>¿Quién creó Python?</header>
+        <article>
+          <p>
+            Python fue creado por el informático Guido van Rossum, quien había estado trabajando con un lenguaje llamado ABC en su anterior trabajo en el Centrum Wiskunde & Informática (CWI) – Instituto Nacional de Investigación en Matemáticas e Informática en los Países Bajos-. Aunque le gustaban algunos aspectos de ABC, estaba frustrado por lo difícil que era difundir este lenguaje.
+
+            Durante las vacaciones de Navidad de 1989, van Rossum decidió intentar crear su propio lenguaje. Poco más de un año después, en febrero de 1991, subió la primera versión de su creación a USENET.
+
+  
+          </p>
+
+          <p>
+            Por otro lado, le gustaba leer los textos de los episodios de «El circo volador de Monty Python», de la famosa compañía británica de comedia. Buscando un nombre que fuera «corto, único y ligeramente misterioso», eligió llamarlo Python.
+
+            ¿Tienes que ser un fan del espectáculo si quieres codificar en Python? En palabras de la Fundación de Software Python, «No, pero ayuda. :)».
+
+
+          </p>
+          <p>
+            Aunque ahora esta retirado, van Rossum tiene el título de «Benevolent Dictator for Life (BDFL)» de Python, título informal que ostenta desde 1995. De hecho, desde entonces varios creadores de código abierto -que tienen la última palabra sobre los cambios en sus proyectos- también han recibido ese título por parte de sus comunidades de desarrollo.
+
+            Guido Van Rossum es el creador y responsable de que Python exista. Se trata de un informático de origen holandés que fue el encargado de diseñar Python y de pensar y definir todas las vías posibles de evolución de este popular lenguaje de programación
+
+            En las navidades de 1989 Van Rossum, mientras trabajaba en un centro de investigación holandés (CWI), decidió empezar un nuevo proyecto como pasatiempo personal. Pensó en darle continuidad a ABC, un lenguaje de programación que se desarrollo en el mismo centro en el que estaba trabajando.
+
+            Sin embargo, el proyecto no llegó mucho más lejos por las limitaciones del hardware de la época, así que Van Rossum decidió darle una segunda vida a su idea y partiendo de la base que tenía, empezó a trabajar en Python.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="¿Para_que_se_usa_y_qué_se_puede_programar_con_Python?">
+        <header>¿Para que se usa y qué se puede programar con Python?</header>
+        <article>
+          Python es un lenguaje de programación de propósito general, que es otra forma de decir que puede ser usado para casi todo. Lo más importante es que se trata de un lenguaje interpretado, lo que significa que el código escrito no se traduce realmente a un formato legible por el ordenador en tiempo de ejecución.
+          <code
+            >function greetMe(yourName) { alert("Hello " + yourName); }
+            greetMe("World");
+          </code>
+
+          Este tipo de lenguaje también se conoce como «lenguaje de scripting» porque inicialmente fue pensado para ser usado en proyectos sencillos.
+
+          El concepto de «lenguaje de scripting» ha cambiado considerablemente desde su creación, porque ahora se utiliza Python para programar grandes aplicaciones de estilo comercial, en lugar de sólo las simples aplicaciones comunes.
+
+          Una encuesta realizada en 2019 entre los usuarios de Python indicó que los usos más populares eran para el desarrollo web y el análisis de datos. Sólo alrededor del 6 %  de los encuestados lo utilizaron para el desarrollo de juegos o el desarrollo de aplicaciones.
+
+          Esta dependencia de Python ha crecido aún más a medida que Internet se ha hecho más popular. Una gran mayoría de las aplicaciones y plataformas web dependen de su lenguaje, incluido el motor de búsqueda de Google, YouTube, y el sistema de transacciones orientado a la web de la Bolsa de Nueva York (NYSE).
+
+          En definitiva, sabes que el lenguaje debe ser realmente importante cuando se encarga de impulsar un sistema bursátil. De hecho, la NASA lo utiliza cuando programan sus equipos y maquinaria espacial.
+
+          Existen muchas aplicaciones comerciales para la programación en Python, pero el lenguaje también se ha afianzado en los círculos académicos, especialmente entre los que trabajan con grandes cantidades de datos.
+
+          También, puede ser usado para procesar texto, mostrar números o imágenes, resolver ecuaciones científicas y guardar datos.
+
+          En resumen, se utiliza entre bastidores para procesar un montón de elementos que podrías necesitar o encontrar en tu(s) dispositivo(s), incluido el móvil.
+                  </article>
+      </section>
+      <section class="main-section" id="¿Cómo_funciona_Python?">
+        <header>¿Cómo funciona Python?</header>
+        <p>
+          El lenguaje de programación Python utiliza módulos de código que son intercambiables en lugar de una larga lista de instrucciones que era estándar para los lenguajes de programación funcional.
+          La implementación estándar de Python se llama «cpython«. En definitiva, no convierte su código en lenguaje de máquina o código máquina, algo que el hardware puede entender.
+
+  
+        </p>
+        <p>
+          En realidad, lo convierte en algo llamado código de byte. Este código de bytes no puede ser entendido por la CPU. Así que necesitamos un intérprete llamado Máquina Virtual Python (PVM) que ejecuta los códigos de bytes.
+
+          El intérprete de Python realiza las siguientes tareas para ejecutar un programa:
+          <h1>
+          Paso 1 :
+          </h1>
+           El intérprete lee un código o instrucción python. Luego verifica que la instrucción esté bien formateada, es decir, comprueba la sintaxis de cada línea. Si encuentra algún error, detiene inmediatamente la traducción y muestra un mensaje de error.
+           <h1>
+          Paso 2 :
+          </h1>
+           Si no hay ningún error, es decir, si la instrucción o el código python está bien formateado, el intérprete lo traduce a su forma equivalente en un lenguaje intermedio llamado «código Byte». Así, después de la ejecución exitosa de la escritura o el código python, se traduce completamente en código Byte.
+           <h1>
+          Paso 3:
+          </h1>
+           El código del byte se envía a la Máquina Virtual Python, donde de nuevo se ejecuta el código del byte en PVM. Si se produce un error durante esta ejecución, ésta se detiene con un mensaje de error.
+        </p>
+        <p>
+          El lenguaje Python es uno de los más importantes y serios a día de hoy en el desarrollo web y en la programación para nuevas tecnologías como big data o inteligencia artificial, algo que podría ser sorpresivo teniendo en cuenta que su nombre proviene del grupo cómico británico los Monty Python.
+
+          Saber programar hoy en día en Python abre la puerta de un mercado laboral que demanda profesionales capaces de programar en este lenguaje, debido a su utilidad en sectores de gran demanda, como el desarrollo web, el análisis de grandes volúmenes de datos o la inteligencia de negocio.
+    
+        </p>
+      </section>
+      <section class="main-section" id="9_Razones_por_las_que_debes_aprender_Python">
+        <header>9 Razones por las que debes aprender Python</header>
+        <article>
+          Python es uno de los lenguajes de programación más queridos por los desarrolladores, científicos de datos, ingenieros de software e incluso hackers debido a su versatilidad, flexibilidad y características orientadas a los objetos.
+
+          Muchas de las aplicaciones web y móviles que disfrutamos hoy en día se deben a las abundantes librerías de Python, a sus diversos frameworks, a sus extensas colecciones de módulos y a sus extensiones de archivos. No sólo eso, también es excelente para construir servicios web de microproyectos a macroempresas, así como para soportar otros tipos de lenguajes de programación.
+
+    
+          <p>
+            Aunque es un lenguaje de alto nivel y puede hacer tareas complejas, es fácil de aprender y tiene una sintaxis limpia. Por lo tanto, es recomendable tanto para principiantes como para programadores experimentados. Además, hay muchas maneras de aprender Python; de forma autodidacta, apuntándote a un centro de formación especializado o ver tutoriales online. ¡Tú eliges!
+          </p>
+          <p>
+            
+            <code>x = 42.</code>
+             De hecho, hay muchas razones por las que deberías aprender Python. Y para entender más profundamente su alcance y beneficios, te voy a mostrar 9 de ellas.
+          </p>
+          <p>
+            <h1>
+            1. Buena oferta laboral y bien remunerado.
+            </h1>
+            Solo tienes que pasarte por cualquier buscador de empleo online y escribir «Python» para descubrir las numerosas ofertas relacionadas que aparecen. Dado que la programación en Python se puede utilizar de muchas maneras, hay puestos de trabajo que se ajustan a todos los niveles de experiencia e interés laboral, incluyendo puestos de ingeniero de control de calidad, puestos de ingeniero de software de nivel básico y puestos de alto nivel como ingenieros de machine learning e inteligencia artificial.
+            <h1>
+            2. De uso frecuente en startups.
+            </h1>
+            Las startups necesitan funcionar con presupuestos ajustados para sobrevivir, y eso significa que cuando están construyendo sus productos digitales (ya sean sitios web, aplicaciones para móviles o programas de software) esos productos deben completarse dentro del presupuesto y antes de lo previsto.
+
+            Debido a su capacidad para ayudar a cumplir con ambos objetivos, Python es un lenguaje de programación adorado en el mundo de las startups.
+
+            La eficiencia y la facilidad de uso significan menos tiempo de desarrollo, un proceso de control de calidad y depuración racionalizado, y un mayor retorno de la inversión en general que las alternativas de codificación más difíciles de navegar. Las startups son un gran lugar para conseguir un primer trabajo y empezar a ganar experiencia en la industria, y conocer tu camino.
+            <h1>
+            3. Se tarda poco tiempo en aprender.
+            </h1>
+            Por lo eficiente y versátil que es un lenguaje como Python, se podría pensar que se necesitan años para aprender a programarlo. ¡No es así! Los profesionales de la industria dicen que los fundamentos (cosas como la sintaxis, las palabras clave y los tipos de datos) se pueden aprender en tan sólo 6-8 semanas si tienes experiencia previa con lenguajes de codificación.
+            <h1>
+            4. Tiene una comunidad de usuarios muy activa.
+            </h1>
+            Python es un lenguaje de código abierto, lo que significa que es libre de usar y cualquiera puede modificar o crear extensiones para este lenguaje.
+
+            El hecho de ser de código abierto es lo que permite a los lenguajes tener bibliotecas, marcos de trabajo (frameworks) y otras herramientas que mantienen al lenguaje relevante y adaptable a lo largo del tiempo. Por ello,  el código abierto sólo está a la altura de su potencial si hay una comunidad de usuarios comprometidos con el lenguaje.
+
+            La Python Software Foundation tiene una página comunitaria (foro) en su web que enlaza con varios grupos comunitarios y foros donde se pueden encontrar compañeros para recibir consejos, tutorías, inspiración o simplemente para charlar sobre la brillantez de Python. ¿A qué estás esperando? ¡Hay espacio para al menos uno más en el vagón de Python!
+            <h1>
+            5. Es el lenguaje de programación más popular
+            </h1>
+            Según The Economist (2018), Python va camino de convertirse en el lenguaje de codificación más popular del mundo. Mientras que lenguajes como Fortran y Lisp han experimentado un precipitado declive, y lenguajes como C y C++ permanecen estables, lenguajes como Python y JavaScript están en alza.
+            <h1>
+            6. Es un lenguaje muy versátil
+            </h1>
+            Ser un lenguaje de programación de propósito general significa que sus procedimientos, instrucciones y estructuras de datos están diseñados para resolver cualquier problema. Es por ello, que los grandes éxitos de la tecnología como Google, Facebook e Instagram utilizan la programación Python para construir partes de sus paquetes tecnológicos. Pero también puede ser usado para construir programas básicos y proyectos en todos los puntos intermedios.
+
+            La versatilidad de Python indica que, como desarrollador, tendrás una amplia gama de opciones de trabajo. Ya sea que quieras trabajar para un gigante de la tecnología, construir tus propios programas de software a menor escala, o trabajar como un desarrollador web.
+            <h1>
+            7. Numerosos complementos para lo que necesites
+            </h1>
+            Si necesitas algo más personalizable que la configuración de Python lista para usar, ¡no hay problema! Al igual que los lenguajes como JavaScript, dispones de librerías y frameworks para Python que se ajustan a tus necesidades de codificación específicas.
+
+            Los frameworks populares de Python como Django están diseñados para hacer que sea más efectivo en la creación de aplicaciones web, mientras que PyQt es un framework que permite a Python construir Interfaces Gráficas de Usuario (GUI) -interfaces de usuario que implican el uso de iconos en pantalla y gráficos para procesar comandos de usuario-.
+            <h1>
+            8. Automatización de tareas y procesos.
+            </h1>
+            Una de las partes más difíciles de trabajar en la tecnología (independientemente de su función) es la gestión de todas esas tareas repetitivas, que consumen mucho tiempo, relacionadas con la tecnología. Pequeñas cosas como copiar archivos, arrastrar carpetas y renombrarlas, subir activos a los servidores… todo esto se traduce en mucho tiempo a largo plazo.
+
+            La automatización es otra área por la que vale la pena aprender Python. La capacidad de este lenguaje para escribir scripts de sistema origina que puedes crear programas Python sencillos para automatizar tareas monótonas que disminuyen tu productividad.
+
+            El tiempo que te ahorrarás en saber cómo automatizar procesos con Python es un gran argumento para aprender este lenguaje.
+            <h1>
+            9. Te da las herramientas para trabajar en cualquier tecnología.
+            </h1>
+            Aprender el código Python no hace más que prepararte para el desarrollo de Internet, te preparará para el futuro de los trabajos tecnológicos, porque se utiliza para algo más que el desarrollo tradicional. De hecho, es importante para los campos emergentes de la ciencia de los datos como:
+
+            Análisis de datos (Big Data)
+            Inteligencia Artificial
+            Machine Learning
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Variables_expresiones_y_sentencias">
+        <header>Variables expresiones y sentencias</header>
+        <article>
+          <p>
+            <h1>
+            Valores y tipos
+            </h1>
+            El valor es uno de los elementos fundamentales (como por ejemplo una letra o
+            un numero) ´ que manipula un programa. Los valores que hemos visto hasta el
+            momento son 2 (el resultado de sumar 1 + 1) y Hola, mundo.
+            Estos valores son de distintos tipos: 2 es un entero y Hola, mundo es una
+            cadena, llamada ası porque contiene una “cadena” de letras. Usted (y el
+            int´erprete) puede identificar las cadenas porque estan encerradas entre comillas.
+            La sentencia print tambi´en funciona con enteros:
+            >>> print 4
+            4
+            Si no esta seguro del tipo que tiene un determinado valor, puede pregunt´arselo
+            al interprete de Python.
+            >>> type("Hola, mundo")
+            <type ’string’>
+            >>> type(17)
+            <type ’int’>
+            No es sorprendente que las cadenas sean de tipo string (cadena en ingl´es) y
+            los enteros sean de tipo int (por integer en ingles.
+          </p>
+
+          <p>
+            numeros ´ con decimales (separados por medio de un punto en ingl´es) son de tipo
+            float debido a la representaci´on de estos numeros ´ en el formato llamado de
+            coma flotante (floating-point).
+            >>> type(3.2)
+            <type ’float’>
+            ¿Qu´e ocurre con los valores como "17" y "3.2"? Parecen numeros, ´ pero est´an
+            entre comillas como las cadenas.
+            >>> type("17")
+            <type ’string’>
+            >>> type("3.2")
+            <type ’string’>
+            Son cadenas.
+            Cuando escriba un entero largo, podr´ıa estar tentado de usar comas entre grupos
+            de tres d´ıgitos, como en 1,000,000. Este ´ no es un entero legal en Python, pero
+            es una expresi´on legal:
+            >>> print 1,000,000
+            1 0 0
+            En fin, no era eso lo que quer´ıamos. Python interpreta 1,000,000 como una
+            lista de tres numeros ´ que debe imprimir. As´ı que recuerde no insertar comas en
+            sus enteros. 1
+            2.2. Variables
+            Una de las caracter´ısticas m´as potentes de los lenguajes de programaci´on es
+            la capacidad de manipular variables. Una variable es un nombre que hace
+            referencia a un valor.
+            La sentencia de asignaci´on crea nuevas variables y les asigna un valor:
+            >>> mensaje = "Que onda?"
+            >>> n = 17
+            >>> pi = 3.14159
+            Este ejemplo muestra tres asignaciones. La primera de ellas asigna el valor
+            "Que onda?" a una variable nueva, de nombre mensaje.
+          </p>
+          <code>if (true) { var x = 5; } console.log(x); // 5</code>
+          <p>
+            Nombres de variables y palabras reservadas
+            Como norma general, los programadores eligen nombres significativos para sus
+            variables: esto permite documentar para qu´e se usa la variable.
+            Los nombres de las variables pueden tener una longitud arbitraria. Pueden estar
+            formados por letras y numeros, ´ pero deben comenzar con una letra. Aunque es
+            14 Variables, expresiones y sentencias
+            aceptable usar mayusculas, ´ por convenci´on no lo hacemos. Si lo hace, recuerde
+            que la distinci´on es importante: Bruno y bruno son dos variables diferentes.
+            El gui´on bajo ( ) tambi´en es legal y se utiliza a menudo para separar nombres
+            con multiples ´ palabras, como mi nombre o precio del cafe colombiano.
+            Si intenta darle a una variable un nombre ilegal, obtendr´a un error de sintaxis.
+            >>> 76trombones = "gran desfile"
+            SyntaxError: invalid syntax
+            >>> mas$ = 1000000
+            SyntaxError: invalid syntax
+            >>> class = "Curso de Programaci´on 101"
+            SyntaxError: invalid syntax
+            76trombones es ilegal porque no comienza por una letra. mas$ es ilegal porque
+            contiene un car´acter ilegal, el signo del d´olar. Pero ¿que tiene de malo class?
+            Resulta que class es una de las palabras reservadas de Python. El lenguaje
+            usa las palabras reservadas para definir sus reglas y estructura, y no pueden
+            usarse como nombres de variables.
+
+          </p>
+
+          <code
+            >if (true) { let y = 5; } console.log(y); // ReferenceError: y is
+            not defined</code
+          >
+        </article>
+      </section>
+      <section class="main-section" id="Funciones">
+        <header>Funciones</header>
+        <article>
+          <p>
+            <h1>
+            Llamadas a funciones
+            </h1>
+            Ya hemos visto un ejemplo de una llamada a una funci´on:
+            >>> type("32")
+            <type ’string’>
+            El nombre de la funci´on es type, y muestra el tipo de un valor o de una variable.
+            El valor o variable, llamado el argumento de la funci´on, ha de estar encerrado
+            entre par´entesis. Es habitual decir que una funci´on “toma” un argumento y
+            “devuelve” un resultado. El resultado se llama valor de retorno.
+            En lugar de imprimir el valor de retorno, podemos asign´arselo a una variable.
+            >>> nereida = type("32")
+            >>> print nereida
+            <type ’string’>
+            Otro ejemplo m´as: la funci´on id toma como argumento un valor o una variable
+            y devuelve un entero que actua´ como identificador unico ´ de ese valor.
+            >>> id(3)
+            134882108
+            >>> yanira = 3
+            >>> id(yanira)
+            134882108
+            Cada valor tiene un id, que es un valor unico ´ relacionado con d´onde se almacena
+            en la memoria del computador. El id de una variable es el id del valor al que
+            hace referencia..
+          </p>
+
+          <p>
+            <h1>
+            Conversi´on de tipos
+            </h1>
+            Python proporciona una colecci´on de funciones internas que convierten valores
+            de un tipo a otro. La funci´on int toma un valor y lo convierte a un entero, si
+            es posible, o da un error si no es posible.
+            >>> int("32")
+            32
+            >>> int("Hola")
+            ValueError: invalid literal for int(): Hola
+            int tambi´en convierte valores de coma flotante a enteros, pero recuerde que
+            siempre redondea hacia abajo:
+            >>> int(3.99999)
+            3
+            La funci´on float que convierte enteros y cadenas en numeros ´ en coma flotante:
+            >>> float(32)
+            32.0
+            >>> float("3.14159")
+            3.14159
+            Finalmente, est´a la funci´on str, que convierte a tipo string:
+            >>> str(32)
+            ’32’
+            >>> str(3.14149)
+            ’3.14149’
+            Pudiera parecer extrano˜ que Python distinga entre el valor entero 1 y el valor
+            de coma flotante 1.0. Tal vez representen el mismo numero, ´ pero pertenecen
+            a tipos distintos. El motivo es que se representan de forma distinta dentro del
+            computador.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Condicionales_y_recursividad">
+        <header>Condicionales y recursividad</header>
+        <article>
+          <p>
+            <h1>
+            El operador modulo
+            </h1>
+            El operador modulo funciona con enteros (y expresiones enteras), y devuelve
+            el resto de dividir el primer operando entre el segundo. En Python, el operador
+            de m´odulo es el signo de tanto por ciento ( %). La sintaxis es la misma de los
+            otros operadores:
+            >>> cociente = 7 / 3
+            >>> print cociente
+            2
+            >>> resto = 7 % 3
+            >>> print resto
+            1
+            As´ı, 7 dividido entre 3 da 2 con 1 de resto.
+            El operador de m´odulo resulta ser soprendentemente util. ´ Por ejemplo, puede
+            comprobar si un numero ´ es divisible entre otro: si x % y es cero, entonces x es
+            divisible entre y.
+            Tambi´en puede usar el operador m´odulo para extraer el d´ıgito m´as a la derecha
+            de un numero. ´ Por ejemplo, x % 10 devuelve el d´ıgito m´as a la derecha de x (en
+            base 10). De forma similar, x % 100 devuelve los dos ultimos ´ d´ıgitos.
+          </p>
+
+          <code>const PI = 3.14;</code>
+          <p>
+            <h1>
+            Expresiones booleanas
+            </h1>
+            Una expresi´on booleana es una expresi´on que es cierta o falsa. En Python,
+            una expresi´on que es cierta tiene el valor 1, y una expresi´on que es falsa tiene
+            el valor 0.
+            El operador == compara dos valores y entrega una expresi´on booleana:
+            >>> 5 == 5
+            1
+            >>> 5 == 6
+            0
+            En la primera sentencia, los dos operandos son iguales, as´ı que la expresi´on se
+            evalua´ como 1 (verdadero); en la segunda sentencia, 5 no es igual a 6, as´ı que
+            obtenemos 0 (falso).
+            El operador == es uno de los operadores de comparaci´on; los otros son:
+            x != y # x no es igual a y
+            x > y # x es mayor que y
+            x < y # x es menor que y
+            x >= y # x es mayor o igual que y
+            x <= y # x es menor o igual que y
+            Aunque probablemente estas operaciones le resulten familiares, los s´ımbolos en
+            Python son diferentes de los matem´aticos. Un error habitual es utilizar un signo
+            igual sencillo (=) en lugar del doble (==). Recuerde que = es un operador de
+            asignaci´on y == es un operador de comparaci´on. Adem´as, no existen =< ni =>.
+
+          </p>
+
+          <p>
+            <h1>
+            Operadores l´ogicos
+            </h1>
+            Hay tres operadores l´ogicos: and, or, y not. La sem´antica (significado) de
+            estos operadores es similar a sus significados en ingl´es. Por ejemplo, x >0 and
+            x <10 es verdadero s´olo si x es mayor que 0 y menor que 10.
+            n %2 == 0 or n %3 == 0 es verdadero si cualquiera de las condiciones es verdadera, o sea, si el numero ´ es divisible por 2 o por 3.
+            Finalmente, el operador not niega una expresi´on booleana, de forma que not(x
+            >y) es cierto si (x >y) es falso, o sea, si x es menor o igual que y.
+            Hablando estrictamente, los operandos de los operadores l´ogicos deber´ıan ser
+            expresiones booleanas, pero Python no es muy estricto. Cualqueir numero ´ que
+            no sea cero se interpreta como “verdadero”..
+          </p>
+
+          <p>
+            >>> x = 5
+            >>> x and 1
+            1
+            >>> y = 0
+            >>> y and 1
+            0
+            En general, este tipo de cosas no se considera buen estilo. Si quiere comparar
+            un valor con cero, deber´ıa hacerlo expl´ıcitamente.
+
+          </p>
+
+          <code
+            >// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
+            WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
+            //statements }</code
+          >
+          Ejecucion condicional
+          Para escribir programas utiles, ´ casi siempre necesitamos la capacidad de comprobar ciertas condiciones y cambiar el comportamiento del programa en consonancia. Las sentencias condicionales nos dan esta capacidad. La forma m´as
+          sencilla es la sentencia if:
+          if x > 0:
+          print "x es positivo"
+          La expresi´on booleana tras el if se llama condici´on. Si es verdadera, entonces
+          la sentencia indentada se ejecuta. Si la condici´on no es verdadera, no pasa nada.
+          Como otras sentencias compuestas, if consta de una cabecera y un bloque de
+          sentencias:
+          CABECERA:
+          PRIMERA SENTENCIA
+          ...
+          ULITMA SENTENCIA
+          La cabecera comienza con una nueva l´ınea y termina con el signo de dos puntos.
+          Los elementos indentados que siguen se llaman bloque de la sentencia. La
+          primera sentencia no indentada marca el fin del bloque. Un bloque de sentencias
+          dentro de una sentencia compuesta recibe el nombre de cuerpo de la sentencia.
+          No hay l´ımite a la cantidad de sentencias que pueden aparecer en el cuerpo de
+          una sentencia if, pero debe haber al menos una. A veces, es util ´ tener un cuerpo
+          sin sentencias, (normalmente como reserva de espacio para algo de c´odigo que
+          todav´ıa no ha escrito). En tales casos, puede usted utilizar la sentencia pass,
+          que no hace nada.
+          <code
+            >const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
+            "otherValue";</code
+          >
+        </article>
+      </section>
+      <section class="main-section" id="Funciones_productivas">
+        <header>Funciones productivas</header>
+        <article>
+          <p>
+            <h1>
+            Valores de retorno
+            </h1>
+            Algunas de las funciones internas que hemos usado, como las funciones math o
+            funciones matem´aticas, han producido resultados. Llamar a la funci´on genera un
+            nuevo valor, que normalmente asignamos a una variable pasa usar como parte
+            de una expresi´on.
+            import math
+            e = math.exp(1.0)
+            altura = radio * math.sin(angulo)
+            Pero hasta ahora, ninguna de las funciones que hemos escrito ha devuelto un
+            valor.
+            En este cap´ıtulo escribiremos funciones que devuelvan valores, que llamaremos
+            funciones productivas, a falta de un nombre mejor. El primer ejemplo es
+            area, que devuelve el area ´ de un c´ırculo con un radio dado:
+            import math
+            def area(radio):
+            temporal = math.pi * radio**2
+            return temporal
+            Ya hemos visto antes la sentencia return, pero en una funci´on productiva la
+            sentencia return incluye un valor de retorno. Esta sentencia quiere decir “retorna inmediatamente de la funci´on y usa la siguiente expresi´on como valor de
+            retorno”. La expresi´on dada puede ser arbitrariamente complicada; as´ı pues,
+            podr´ıamos haber escrito esta funci´on m´as concisamente
+          </p>
+          <ul>
+            <li>
+              <p>
+                def area(radio):
+                return math.pi * radio**2
+                Por otra parte, las variables temporales como temporal suelen hacer m´as
+                f´acil el depurado.
+                A veces es util ´ disponer de varias sentencias de retorno, una en cada rama de
+                una condici´on:
+                def valorAbsoluto(x):
+                if x < 0:
+                return -x
+                else:
+                return x
+                Puesto que estas sentencias return est´an en una condici´on alternativa, s´olo se
+                ejecutar´a una de ellas. En cuanto se ejecuta una de ellas, la funci´on termina sin
+                ejecutar ninguna de las sentencias siguientes.
+                El c´odigo que aparece despu´es de una sentencia return o en cualquier otro lugar
+                donde el flujo de ejecuci´on no pueda llegar, recibe el nombre de c´odigo muerto.
+                En una funci´on productiva es una buena idea asegurarse de que cualquier posible
+                recorrido del programa alcanza una sentencia return. Por ejemplo:
+                def valorAbsoluto(x):
+                if x < 0:
+                return -x
+                elif x > 0:
+                return x
+                Este programa no es correcto porque si resulta que x vale 0, entonces no se cumple ninguna de ambas condiciones y la funci´on termina sin alcanzar la setencia
+                return. En este caso, el valor de retorno es un valor especial llamado None:
+                >>> print valorAbsoluto(0)
+                None
+                Como actividad, escriba una funci´on comparar que devuelva 1 si x
+                >y , 0 si x == y , y -1 si x.
+              </p>
+              <ul>
+                <li>Desarrollo de programas
+                Llegados a este punto, tendr´ıa que poder mirar a funciones Python completas
+                y adivinar qu´e hacen. Tambi´en, si ha hecho los ejercicios, habr´a escrito algunas funcioncillas. Tal como vaya escribiendo funciones mayores puede empezar
+                </li>
+                <li>
+                  a experimentar m´as dificultades, especialmente con los errores en tiempo de
+                  ejecuci´on y los sem´anticos.
+                  Para lidiar con programas de complejidad creciente, vamos a sugerirle una t´ecnica que llamaremos desarrollo incremental. El objetivo del desarrollo incremental es sustituir largas sesiones de depuraci´on por la adici´on y prueba de
+                  pequenas ˜ porciones de c´odigo en cada vez.
+
+                </li>
+                <li>
+                  Por ejemplo, supongamos que desea encontrar la distancia entre dos puntos, dados por las coordenadas (x1, y1) y (x2, y2). Por el teorema de Pit´agoras, podemos
+                  escribir la distancia es:
+                </li>
+
+                <li>
+                  El primer paso es considerar qu´e aspecto tendr´ıa una funci´on distancia en
+                  Python. En otras palabras, ¿cu´ales son las entradas (par´ametros) y cu´al es la
+                  salida (valor de retorno)
+                </li>
+              </ul>
+            </li>
+
+            <li>Composicion</li>
+          </ul>
+          Como seguramente a estas alturas ya supondr´a, se puede llamar a una funci´on
+          desde dentro de otra. Esta habilidad se llama composici´on .
+          Como ejemplo, escribiremos una funci´on que tome dos puntos, el centro del
+          c´ırculo y un punto del per´ımetro, y calcule el area ´ del c´ırculo.
+          Supongamos que el punto central est´a almacenado en las variables xc e yc, y
+          que el punto del per´ımetro lo est´a en xp e yp. El primer paso es hallar el radio
+          del c´ırculo, que es la distancia entre los dos puntos. Afortunadamente hay una
+          funci´on, distancia, que realiza esta tarea:
+          radio = distancia(xc, yc, xp, yp)
+          El segundo paso es encontrar el area ´ de un c´ırculo con ese radio y devolverla:
+          resultado = area(radio)
+          return resultado
+          Envolviendo todo esto en una funci´on, obtenemos:
+          def area2(xc, yc, xp, yp):
+          radio = distancia(xc, yc, xp, yp)
+          resultado = area(radio)
+          return resultado
+        </article>
+      </section>
+      <section class="main-section" id="Cadenas">
+        <header>Cadenas</header>
+        <article>
+          <h1>
+          Un tipo de datos compuesto
+          </h1>
+          Hasta el momento hemos visto tres tipos: int, float, y string. Las cadenas
+          son cuantitativamente diferentes de los otros dos porque est´an hechas de piezas
+          menores: caracteres.
+          Los tipos que comprenden piezas menores se llaman tipos de datos compuestos. Dependiendo de qu´e estemos haciendo, podemos querer tratar un tipo
+          compuesto como una unica ´ cosa o acceder a sus partes. Esta ambiguedad ¨ es util. ´
+          El operador corchete selecciona un car´acter suelto de una cadena.
+          >>> fruta = "banana"
+          >>> letra = fruta[1]
+          >>> print letra
+          La expresi´on fruta[1] selecciona el car´acter numero ´ 1 de fruta. La variable
+          letra apunta al resultado. Cuando mostramos letra, nos encontramos con una
+          sorpresa:
+          a
+          La primera letra de "banana" no es a. A no ser que usted sea un programador.
+          Por perversas razones, los cient´ıficos de la computaci´on siempre empiezan a
+          contar desde cero. La 0-sima letra (“cer´osima”) de "banana" es b. La 1-´esima
+          (“un´esima”) es a, y la 2-´esima (“dos´esima”) letra es n.
+          Si quiera la cer´osima letra de una cadena, simplemente pone 0, o cualquier
+          expresi´on de valor 0, entre los corchetes
+
+          <code>if (condition) { statement_1; } else { statement_2; }</code>
+          condition can be any expression that evaluates to true or false. See
+          Boolean for an explanation of what evaluates to true and false. If
+          condition evaluates to true, statement_1 is executed; otherwise,
+          statement_2 is executed. statement_1 and statement_2 can be any
+          statement, including further nested if statements.
+          <p>
+            >>> letra = fruta[0]
+            >>> print letra
+            b
+            A la expresi´on entre corchetes se le llama ´ındice. Un ´ındice identifica a un
+            miembro de un conjunto ordenado, en este caso el conjunto de caracteres de la
+            cadena. El ´ındice indica cu´al quiere usted, de ah´ı el nombre. Puede ser cualquier
+            expresi´on entera
+          </p>
+          <code
+            >if (condition_1) { statement_1; } else if (condition_2) {
+            statement_2; } else if (condition_n) { statement_n; } else {
+            statement_last; }
+          </code>
+          Longitud
+          La funcion len devuelve el numero ´ de caracteres de una cadena:
+          >>> fruta = "banana"
+          >>> len(fruta)
+          6
+          Para obtener la ultima ´ letra de una cadena puede sentirse tentado a probar algo
+          como esto:
+          longitud = len(fruta)
+          ultima = fruta[longitud] # ERROR!
+          Eso no funcionar´a. Provoca un error en tiempo de ejecuci´on IndexError:
+          string index out of range. La raz´on es que no hay una sexta letra en
+          "banana". Como empezamos a contar por cero, las seis letras est´an numeradas
+          del 0 al 5. Para obtener el ultimo ´ car´acter tenemos que restar 1 de longitud:
+          longitud = len(fruta)
+          ultima = fruta[longitud-1]
+          De forma alternativa, podemos usar ´ındices negativos, que cuentan hacia atr´as
+          desde el final de la cadena. La expresi´on fruta[-1] nos da la ultima ´ letra.
+          fruta[-2] nos da la penultima, ´ y as´ı.
+
+
+          <code
+            >if (condition) { statement_1_runs_if_condition_is_true;
+            statement_2_runs_if_condition_is_true; } else {
+            statement_3_runs_if_condition_is_false;
+            statement_4_runs_if_condition_is_false; }</code
+          >
+          Recorrido y el bucle for
+          Muchos c´alculos incluyen el proceso de una cadena car´acter a car´acter. A menudo empiezan por el principio, seleccionan cada car´acter por turno, hacen algo
+          con ´el y siguen hasta el final. Este patr´on de proceso se llama recorrido. Una
+          forma de codificar un recorrido es una sentencia while:
+          indice = 0
+          while indice < len(fruta):
+          letra = fruta[indice]
+
+          <code>if ((x = y)) { /* statements here */ }</code>
+        </article>
+      </section>
+      <section class="main-section" id="Listas">
+        <header>Listas</header>
+        <article>
+          Una lista es un conjunto ordenado de valores, en el cual cada valor va identificado por un ´ındice. Los valores que constituyen una lista son sus elementos. Las
+          listas son similares a las cadenas de texto (strings), que son conjuntos ordenados
+          de caracteres, excepto en que los elementos de una lista pueden ser de cualquier
+          tipo. Las listas y las cadenas, y otras cosas que se comportan como conjuntos
+          ordenados, se llaman secuencias.
+
+
+          <code>while (condition) statement</code> If the condition becomes
+          false, statement within the loop stops executing and control passes to
+          the statement following the loop.
+
+          <p>
+            <h1>
+            Valores de una lista
+            </h1>
+            Hay varias maneras de crear una nueva lista; la m´as sencilla es encerrar sus
+            elementos entre corchetes:
+            [10, 20, 30, 40]
+            ["spam", "el´astico", "golondrina"]
+            El primer ejemplo es una lista de cuatro enteros. El segundo es una lista de tres
+            cadenas de texto. Los elementos de una lista no tienen por qu´e ser del mismo
+            tipo. La siguiente lista contiene una cadena, un numero ´ con decimales y un
+            entero, y, maravilla de las maravillas, otra lista:
+            ["hola", 2.0, 5, [10, 20]]
+            Se dice que una lista dentro de otra lista est´a anidada.
+            Las listas que contienen numeros ´ enteros consecutivos son comunes, de manera
+            que Python proporciona una manera sencilla de crearlas:
+            >>> range(1,5)
+            [1, 2, 3, 4]
+          </p>
+
+          <p>
+            La funcion range toma dos argumentos y devuelve una lista que contiene todos
+            los enteros entre el primero y el segundo, ¡incluyendo el primero pero no el
+            segundo!
+            Hay dos formas alternativas para range. Con un solo argumento, crea una lista
+            que empieza desde 0:
+            >>> range(10)
+            [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            Si hay un tercer argumento, especificar´a el espacio entre dos valores sucesivos;
+            a esto se le llama paso (step). Este ejemplo cuenta de 1 a 10 de dos en dos (con
+            pasos de 2).
+            >>> range(1, 10, 2)
+            [1, 3, 5, 7, 9]
+            Para terminar, hay una lista especial que no contiene elementos. Se la llama
+            lista vac´ıa y se representa []..
+          </p>
+
+          Example:
+
+          <p>
+            <h1>
+            Acceso a los elementos
+            </h1>
+            La sintaxis para acceder a los elementos de una lista es la misma que para
+            acceder a los caracteres de una cadena: el operador corchetes []. La expresi´on
+            dentro de los corchetes especifica el ´ındice. Recuerde que los ´ındices siempre
+            comienzan en cero:
+            print numeros[0]
+            numeros[1] = 5
+            El operador [] puede aparecer en cualquier parte de una expresi´on. Cuando
+            aparece a la izquierda de una asignaci´on, cambia uno de los elementos de la
+            lista, de manera que el “un´esimo” elemento de numeros
+          </p>
+
+          <code>var n = 0; var x = 0; while (n &lt; 3) { n++; x += n; }</code>
+          <p>
+            >>> numeros[3-2]
+            5
+            >>> numeros[1.0]
+            TypeError: sequence index must be integer
+            Si intenta acceder (leer o modificar) un elemento que no existe, obtendr´a un
+            error en tiempo de ejecuci´on:
+            >>> numeros[2] = 5
+            IndexError: list assignment index out of range
+            Si se da un ´ındice negativo, se cuenta hacia atr´as desde el final de la lista.
+            >>> numeros[-1]
+            5
+            >>> numeros[-2]
+            17
+            >>> numeros[-3]
+            IndexError: list index out of range
+            numeros[-1] es el ultimo ´ elemento de la lista, numeros[-2] es el penultimo, ´ y
+            numeros[-3] no existe.
+            Es muy habitual usar una varible de bucle como ´ındice para una lista:
+            jinetes = ["guerra", "hambre", "peste", "muerte"]
+            i = 0
+            while i < 4:
+            print jinetes[i]
+            i = i + 1
+            Este bucle while cuenta desde 0 hasta 4. Cuando la variable de bucle vale 4, la
+            condici´on falla y acaba el bucle. Por tanto, el cuerpo del bucle s´olo se ejecuta
+            cuando i es 0, 1, 2 y 3.
+            Cada vez que recorremos el bucle, la variable i se usa como ´ındice de la lista, imprimiendo el elemento i-´esimo. Esta plantilla de computaci´on se llama
+            recorrido de lista.
+          </p>
+
+          <ul>
+            <li>La funci´on len toma una lista y devuelve su tamano. ˜ Es una buena idea usar este valor como l´ımite</li>
+            <li>superior de un bucle, en lugar de una constante. De esta manera, si el tamano</li>
+            <li>de la lista cambia, no habr´a que estar haciendo cambios en todos los bucles; funcionar´an correctamente con cualquier tamano˜ de lista.</li>
+          </ul>
+          <p>
+            La ultima ´ vez que se ejecuta el cuerpo del bucle, i es len(jinetes) - 1, que es
+            el ındice del ultimo ´ elemento. Cuando i se iguala a len(jinetes), la condici´on
+            falla y no se ejecuta el cuerpo, lo que es una cosa buena, ya que len(jinetes)
+            no es un ´ındice legal.
+.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Tuplas">
+        <header>Tuplas</header>
+        <article>
+          <h1>
+          Mutabilidad y tuplas
+          </h1>
+          Hasta ahora, ha visto dos tipos compuestos: cadenas, que est´an hechas de caracteres, y listas, que est´an hechas de elementos de cualquier tipo. Una de las
+          diferencias que senalamos ˜ es que los elementos de una lista se pueden modificar, pero los caracteres de una cadena no. En otras palabras, las cadenas son
+          inmutables y las listas son mutables.
+          En Python hay otro tipo llamado tupla que es similar a una lista salvo en que
+          es inmutable. Sint´acticamente, una tupla es una lista de valores separados por
+          comas:
+          >>> tupla = ’a’, ’b’, ’c’, ’d’, ’e’
+          Aunque no es necesario, la convenci´on dice que hay que encerrar las tuplas entre
+          par´entesis:
+          >>> tupla = (’a’, ’b’, ’c’, ’d’, ’e’)
+          Para crear una tupla con un solo elemento, debemos incluir una coma final:
+          >>> t1 = (’a’,)
+          >>> type(t1)
+          <type ’tuple’>
+          Sin la coma, Python trata (´a’) como una cadena entre par´entesis:
+          >>> t2 = (’a’)
+          >>> type(t2)
+          <type ’string’>
+
+          <ul>
+            <li>Dejando a un lado las cuestiones de sintaxis, las operaciones sobre las tuplas
+              son las mismas que sobre las listas. El operador ´ındice selecciona un elemento
+              de la tupla
+            </li>
+
+            <li>
+              Y el operador de porci´on selecciona un intervalo de elementos
+            </li>
+            <li>
+              Pero si intentamos modificar uno de los elementos de la tupla provocaremos un error:
+
+            </li>
+          </ul>
+          <p>
+            <h1>
+            Asignacion de tuplas
+            </h1>
+            De vez en cuando, es util ´ intercambiar los valores de dos variables. Para hacerlo con sentencias de asignaci´on convencionales debemos usar una variable
+            temporal. Por ejemplo, para intercambiar a y b:
+            >>> temp = a
+            >>> a = b
+            >>> b = temp
+            Si tenemos que hacer esto a menudo, esta aproximaci´on resulta aparatosa. Python proporciona una forma de asignaci´on de tuplas que soluciona este problema elegantemente:
+            >>> a, b = b, a
+            El lado izquierdo es una tupla de variables, el lado derecho es una tupla de
+            valores. Cada valor se asigna a su respectiva variable. Todas las expresiones del
+            lado derecho se evaluan ´ antes de las asignaciones. Esta caracter´ıstica hace de la
+            asignaci´on de tuplas algo muy vers´atil:
+          </p>
+
+          <code>function square(number) { return number * number; }</code>
+          <p>
+            <h1>
+            Tuplas como valor de retorno
+            </h1>
+            Las funciones pueden devolver tuplas como valor de retorno. Por ejemplo,
+            podr´ıamos escribir una funci´on que intercambie dos par´ametros:
+            def intercambio(x, y):
+            return y, x
+            Luego podemos asignar el valor de retorno a una tupla con dos variables:
+            a, b = intercambio(a, b)
+            En este caso, no hay ninguna ventaja en convertir intercambio en una funci´on.
+            De hecho, existe un peligro al intentar encapsular intercambio, y es el tentador
+            error que sigue:
+            def intercambio(x, y): # versi´on incorrecta
+            x, y = y, x
+            Si llamamos a esta funci´on as´ı:
+            intercambio(a, b)
+            a y x son alias del mismo valor. Cambiar x dentro de intercambio hace que x
+            se refiera a un valor diferente, pero no tiene efecto alguno sobre a en main .
+            De forma similar, cambiar y no tiene efecto sobre b.
+            Esta funci´on se ejecuta sin generar un mensaje de error, pero no hace lo que
+            intentamos. Este es un ejemplo de error sem´antico.
+.
+          </p>
+          <code>return number * number;</code>
+          <p>
+            <h1>
+            Numeros ´ aleatorios
+            </h1>
+            La mayor parte de los programas hacen lo mismo cada vez que los ejecutamos,
+            por lo que se dice que son deterministas. Normalmente el determinismo es
+            una cosa buena, ya que esperamos que un c´alculo nos d´e siempre el mismo
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              All the documentation in this page is taken from
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+                target="_blank"
+                >MDN</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
+
